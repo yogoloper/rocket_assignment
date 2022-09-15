@@ -607,6 +607,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   square: {fileID: 3028612356335733620, guid: 5f1a3582491b6404084a17551ec253c1, type: 3}
   gameOverText: {fileID: 334478109}
+  timeText: {fileID: 2115118996}
 --- !u!1 &1183709503
 GameObject:
   m_ObjectHideFlags: 0
@@ -874,7 +875,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9056604, g: 0.15653579, b: 0.06407974, a: 1}
+  m_Color: {r: 1, g: 0.023584902, b: 0.023584902, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -883,10 +884,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 70
-    m_FontStyle: 1
+    m_FontSize: 50
+    m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 0
+    m_MinSize: 5
     m_MaxSize: 70
     m_Alignment: 0
     m_AlignByGeometry: 0
