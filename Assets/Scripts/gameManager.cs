@@ -13,7 +13,7 @@ public class gameManager : MonoBehaviour
 
     }
 
-    void makdSquare()
+    void makeSquare()
     {
         Instantiate(square);
     }
