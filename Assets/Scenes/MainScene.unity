@@ -217,7 +217,7 @@ GameObject:
   - component: {fileID: 441055507}
   m_Layer: 0
   m_Name: balloon
-  m_TagString: Untagged
+  m_TagString: balloon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -606,6 +606,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   square: {fileID: 3028612356335733620, guid: 5f1a3582491b6404084a17551ec253c1, type: 3}
+  gameOverText: {fileID: 334478109}
 --- !u!1 &1183709503
 GameObject:
   m_ObjectHideFlags: 0

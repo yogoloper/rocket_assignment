@@ -21,4 +21,13 @@ public class square : MonoBehaviour
     {
         
     }
+
+    void OnCollisionEnter2D(Collision2D coll)
+    {
+        if (coll.gameObject.tag == "balloon")
+        {
+            //Debug.Log('끝');
+            gameManager.I.gameOver();
+        }
+    }
 }

@@ -5,6 +5,14 @@ using UnityEngine;
 public class gameManager : MonoBehaviour
 {
     public GameObject square;
+    public GameObject gameOverText;
+
+    public static gameManager I;
+
+    void Awake()
+    {
+        I = this;
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -22,5 +30,11 @@ public class gameManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void gameOver()
+    {
+        gameOverText.SetActive(true);
+        Time.timeScale = 0.0f;
     }
 }
