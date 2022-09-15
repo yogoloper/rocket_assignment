@@ -608,6 +608,8 @@ MonoBehaviour:
   square: {fileID: 3028612356335733620, guid: 5f1a3582491b6404084a17551ec253c1, type: 3}
   gameOverText: {fileID: 334478109}
   timeText: {fileID: 2115118996}
+  anim: {fileID: 441055507}
+  balloon: {fileID: 441055503}
 --- !u!1 &1183709503
 GameObject:
   m_ObjectHideFlags: 0

@@ -13,6 +13,9 @@ public class gameManager : MonoBehaviour
 
     public static gameManager I;
 
+    public Animator anim;
+    public GameObject balloon;
+
     void Awake()
     {
         I = this;
@@ -40,7 +43,15 @@ public class gameManager : MonoBehaviour
 
     public void gameOver()
     {
+        anim.SetBool("isDie", true);
         gameOverText.SetActive(true);
+        //Time.timeScale = 0.0f;
+        Invoke("dead", 0.5f);
+    }
+
+    void dead()
+    {
         Time.timeScale = 0.0f;
+        Destroy(balloon);
     }
 }
